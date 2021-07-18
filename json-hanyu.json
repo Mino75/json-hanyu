@@ -1,0 +1,380 @@
+
+ db={
+     "characters": 
+        [
+        
+                {   
+                    "id":"口",
+                    "strokes":"4",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+                {   
+                    "id":"人",
+                    "strokes":"2",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+                {   
+                    "id":"木",
+                    "strokes":"4",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+                {   
+                    "id":"山",
+                    "strokes":"4",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+                {   
+                    "id":"日",
+                    "strokes":"5",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+                {   
+                    "id":"月",
+                    "strokes":"5",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+                {   
+                    "id":"门",
+                    "strokes":"4",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+                {   
+                    "id":"女",
+                    "strokes":"4",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+                {   
+                    "id":"子",
+                    "strokes":"2",
+                    "construct": [
+                        "",
+                    ]
+                },
+
+
+                {   
+                    "id":"火",
+                    "construct": [
+                        {
+                           "id":"人",
+                           "recurrence" :"1",
+                           "error-probability" : "0,5"
+
+                        }
+                        
+                    ]
+                },
+
+                {   
+                    "id":"丛",
+                    "construct": [
+                        {
+                           "id":"人",
+                           "recurrence" :"2",
+                           "error-probability" : "0"
+
+                        }
+                        
+                    ]
+                },
+
+                {   
+                    "id":"众",
+                    "construct": [
+                        {
+                           "id":"人",
+                           "recurrence" :"3",
+                           "error-probability" : "0"
+
+                        }
+                        
+                    ]
+                },
+                
+                {   
+                    "id":"大",
+                    "construct": [
+                        {
+                           "id":"人",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        }
+                        
+                    ]
+                },
+
+                {   
+                    "id":"夫",
+                    "construct": [
+                        {
+                           "id":"人",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        }
+                        
+                    ]
+                },
+
+                {   
+                    "id":"囚",
+                    "construct": [
+                        {
+                           "id":"人",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        },
+                        {
+                            "id":"口",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+                        }
+                    ]
+                },
+
+                {   
+                    "id":"林",
+                    "construct": [
+                        {
+                           "id":"木",
+                           "recurrence" :"2",
+                           "error-probability" : "0"
+
+                        },
+
+                    ]
+                },
+
+                {   
+                    "id":"本",
+                    "construct": [
+                        {
+                           "id":"木",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        },
+                    ]
+                },
+
+                {   
+                    "id":"呆",
+                    "construct": [
+                        {
+                           "id":"木",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        },
+                        {
+                            "id":"口",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+                        }
+                    ]
+                },
+
+
+                {   
+                    "id":"森",
+                    "construct": [
+                        {
+                           "id":"木",
+                           "recurrence" :"3",
+                           "error-probability" : "0"
+
+                        },
+
+                    ]
+                },
+
+
+                {   
+                    "id":"焚",
+                    "construct": [
+                        {
+                           "id":"火",
+                           "recurrence" :"3",
+                           "error-probability" : "0"
+
+                        },
+
+                    ]
+                },
+
+
+                {   
+                    "id":"昌",
+                    "construct": [
+                        {
+                           "id":"日",
+                           "recurrence" :"2",
+                           "error-probability" : "0"
+
+                        },
+
+                    ]
+                },
+
+
+                {   
+                    "id":"晶",
+                    "construct": [
+                        {
+                           "id":"日",
+                           "recurrence" :"3",
+                           "error-probability" : "0"
+
+                        },
+
+                    ]
+                },
+
+
+
+                {   
+                    "id":"明",
+                    "construct": [
+                        {
+                           "id":"日",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        },
+                        {
+                            "id":"月",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+                        }
+                    ]
+                },
+
+
+                {   
+                    "id":"旦",
+                    "construct": [
+                        {
+                           "id":"日",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        },
+                    ]
+                },
+
+                {   
+                    "id":"闩",
+                    "construct": [
+                        {
+                           "id":"门",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        },
+                    ]
+                },
+
+
+                {   
+                    "id":"问",
+                    "construct": [
+                        {
+                           "id":"门",
+                           "recurrence" :"3",
+                           "error-probability" : "0"
+
+                        },
+                        {
+                            "id":"口",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+                        }
+
+                    ]
+                },
+
+                {   
+                    "id":"闪",
+                    "construct": [
+                        {
+                           "id":"人",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        },
+                        {
+                            "id":"门",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+                        }
+                    ]
+                },
+
+                {   
+                    "id":"出",
+                    "construct": [
+                        {
+                           "id":"山",
+                           "recurrence" :"2",
+                           "error-probability" : "0"
+
+                        },
+
+                    ]
+                },
+
+                {   
+                    "id":"好",
+                    "construct": [
+                        {
+                           "id":"女",
+                           "recurrence" :"1",
+                           "error-probability" : "0"
+
+                        },
+                        {
+                            "id":"子",
+                            "recurrence" :"1",
+                            "error-probability" : "0"
+ 
+                         },
+ 
+                    ]
+                },
+
+
+
+
+        ]
+    }        
+
+
+
+
+
